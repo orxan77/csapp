@@ -58,6 +58,7 @@
         "iterator": "cpp",
         "complex": "cpp",
         "sstream": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "limits.h": "c"
     }, // or "google", "microsoft", "webkit", or "file"
 }

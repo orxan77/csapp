@@ -1,9 +1,10 @@
 CHAPTER = Chapter2
-FILE ?= $(CHAPTER)/bit_masking.c
-TARGET := $(basename $(FILE)).out
+FILE ?= foo.c
+FILEPATH = $(CHAPTER)/$(FILE)
+TARGET := $(CHAPTER)/$(basename $(FILE)).out
 
 compile:
-	gcc $(FILE) -o $(TARGET)
+	gcc $(FILEPATH) -o $(TARGET)
 
 exec:
 	./$(TARGET)
@@ -14,4 +15,4 @@ clean:
 run: compile exec
 
 debug:
-	gcc $(FILE) -o $(TARGET) -g
+	gcc $(FILEPATH) -o $(TARGET) -g
