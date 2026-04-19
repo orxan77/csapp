@@ -4,6 +4,7 @@
 - PP 2.10, 2.11 in `inplace_swap.c`.
 - PP 2.12 in `bit_masking.c`.
 - PP 2.15 in `eq.c`.
+- PP 2.23 in `left_right_shift.c`
 
 # Useful notes
 
