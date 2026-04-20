@@ -1,5 +1,5 @@
 CHAPTER = Chapter2
-FILE ?= foo.c
+FILE ?= eq.c
 FILEPATH = $(CHAPTER)/$(FILE)
 TARGET := $(CHAPTER)/$(basename $(FILE)).out
 
