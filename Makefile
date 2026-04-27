@@ -1,5 +1,5 @@
-CHAPTER = Chapter2
-FILE ?= eq.c
+CHAPTER = Chapter3
+FILE ?= absdiff_se.c
 FILEPATH = $(CHAPTER)/$(FILE)
 TARGET := $(CHAPTER)/$(basename $(FILE)).out
 
