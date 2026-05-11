@@ -1,5 +1,5 @@
 CHAPTER = Chapter3
-FILE ?= absdiff_se.c
+FILE ?= fix_set_diag_opt.c
 FILEPATH = $(CHAPTER)/$(FILE)
 TARGET := $(CHAPTER)/$(basename $(FILE)).out
 
