@@ -1,5 +1,5 @@
 CHAPTER = Chapter3
-FILE ?= fix_set_diag_opt.c
+FILE ?= struct_basics.c
 FILEPATH = $(CHAPTER)/$(FILE)
 TARGET := $(CHAPTER)/$(basename $(FILE)).out
 
